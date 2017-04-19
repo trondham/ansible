@@ -1,0 +1,5 @@
+- hosts: "{{ hosts }}"
+  user: iaas
+  tasks:
+     - name: Finalize Designate deployment
+       script: ./files/scripts/designate-deploy.sh {{zone_name}}

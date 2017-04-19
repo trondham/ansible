@@ -20,6 +20,7 @@ test02-proxy
 test02-status
 test02-storage
 test02-volume
+test02-name
 
 [test02-nodes:children]
 test02-access
@@ -39,6 +40,7 @@ test02-novactrl
 test02-proxy
 test02-status
 test02-volume
+test02-name
 
 [test02-access]
 test02-access-01
@@ -115,3 +117,5 @@ test02-storage-05
 [test02-volume]
 test02-volume-01
 
+[test02-name]
+test02-name-01  zone_name=test02.uh-iaas.com
